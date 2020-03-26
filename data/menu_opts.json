@@ -1,0 +1,35 @@
+{
+    "nombreApp" : "Lista Informativa COVID-19",
+    "rutas" : [
+        {
+            "ruta" : "que_es_coronavirus",
+            "icon" : "info",
+            "texto": "¿Qué es el Coronavirus?"
+        },
+        {
+            "ruta" : "sintomas",
+            "icon" : "local_pharmacy",
+            "texto": "Sintomas"
+        },
+        {
+            "ruta" : "prevencion",
+            "icon" : "mood",
+            "texto": "Prevención"
+        },
+        {
+            "ruta" : "recomendaciones",
+            "icon" : "nature_people",
+            "texto": "Recomendaciones"
+        },
+        {
+            "ruta" : "cubre_bocas",
+            "icon" : "group",
+            "texto": "Uso del Cubre-bocas"
+        },
+        {
+            "ruta" : "gel_antibacterial",
+            "icon" : "pan_tool",
+            "texto": "Como usar el Gel-Antibacterial"
+        }
+    ]
+}
