@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:ssa_covid_19/providers/infografias_provider.dart';
 
 import 'package:ssa_covid_19/views/home_page.dart';
 import 'package:ssa_covid_19/views/menores_edad.dart';
@@ -106,7 +107,9 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.display1,
               textAlign: TextAlign.center,
             ),
+
           ],
+          
         ),
       ),
       // floatingActionButton: FloatingActionButton(
@@ -120,6 +123,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
     Future<Null> _obtenerFechaNacimiento(BuildContext context) async {
+
 
       final resultadoFecha = await showDatePicker(
       
@@ -145,6 +149,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
             if( edad > 0 && edad < 14  ){
+
 
               Navigator.push( context, MaterialPageRoute( builder: (context) => HomePage()));
 
